@@ -11,8 +11,8 @@
 set PATH $PATH /Users/andreas/Nextcloud/Files/terminal 
 
 ### EXPORT
-export EDITOR='vim'
-export VISUAL='nano'
+export EDITOR='nvim'
+export VISUAL='nvim'
 
 # adding flags
 # alias df='df -h'                          # human-readable sizes
