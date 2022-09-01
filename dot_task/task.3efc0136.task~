@@ -1,0 +1,46 @@
+# The 'task <id> edit' command allows you to modify all aspects of a task
+# using a text editor.  Below is a representation of all the task details.
+# Modify what you wish, and when you save and quit your editor,
+# Taskwarrior will read this file, determine what changed, and apply
+# those changes.  If you exit your editor without saving or making
+# modifications, Taskwarrior will do nothing.
+#
+# Lines that begin with # represent data you cannot change, like ID.
+# If you get too creative with your editing, Taskwarrior will send you
+# back to the editor to try again.
+#
+# Should you find yourself in an endless loop, re-editing the same file,
+# just quit the editor without making any changes.  Taskwarrior will
+# notice this and stop the editing.
+#
+# Name               Editable details
+# -----------------  ----------------------------------------------------
+# ID:                3
+# UUID:              3efc0136-6be7-4a03-9315-d0d0e7ac2cb2
+# Status:            Pending
+# Mask:              
+# iMask:             
+  Project:           private
+# Separate the tags with spaces, like this: tag1 tag2
+  Tags:              
+  Description:       HP Tinte und Papiere kaufen
+  Created:           2021-07-02 17:53:05
+  Started:           
+  Ended:             
+  Scheduled:         
+  Due:               2021-07-05 00:00:00
+  Until:             
+  Recur:             
+  Wait until:        
+# Modified:          2021-07-02 17:58:58
+  Parent:            
+# Annotations look like this: <date> -- <text> and there can be any number of them.
+# The ' -- ' separator between the date and text field should not be removed.
+# A "blank slot" for adding an annotation follows for your convenience.
+  Annotation:        2021-07-02 17:57:50 -- idealo?
+  Annotation:        2021-07-02 18:04:04 -- 
+# Dependencies should be a comma-separated list of task IDs/UUIDs or ID ranges, with no spaces.
+  Dependencies:      
+# User Defined Attributes
+  UDA priority:      
+# End

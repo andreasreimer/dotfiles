@@ -1,0 +1,666 @@
+time 1625240755
+new [description:"test123" entry:"1625240755" modified:"1625240755" status:"pending" uuid:"eb5f4171-f04b-4fff-9f38-5e81cd3b39dd"]
+---
+time 1625240765
+new [description:"more tasks" entry:"1625240765" modified:"1625240765" status:"pending" uuid:"5160918d-3957-409c-820f-2ae44e75b110"]
+---
+time 1625240801
+new [description:"SCRUM PO lernen" due:"1627682400" entry:"1625240801" modified:"1625240801" status:"pending" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+---
+time 1625240913
+old [description:"test123" entry:"1625240755" modified:"1625240755" status:"pending" uuid:"eb5f4171-f04b-4fff-9f38-5e81cd3b39dd"]
+new [description:"test123" entry:"1625240755" modified:"1625240913" start:"1625240913" status:"pending" uuid:"eb5f4171-f04b-4fff-9f38-5e81cd3b39dd"]
+---
+time 1625240957
+old [description:"SCRUM PO lernen" due:"1627682400" entry:"1625240801" modified:"1625240801" status:"pending" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+new [description:"SCRUM PO lernen" due:"1627682400" entry:"1625240801" modified:"1625240957" project:"SCRUM PO" status:"pending" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+---
+time 1625240975
+old [description:"more tasks" entry:"1625240765" modified:"1625240765" status:"pending" uuid:"5160918d-3957-409c-820f-2ae44e75b110"]
+new [description:"more tasks" end:"1625240975" entry:"1625240765" modified:"1625240975" status:"completed" uuid:"5160918d-3957-409c-820f-2ae44e75b110"]
+---
+time 1625240981
+old [description:"test123" entry:"1625240755" modified:"1625240913" start:"1625240913" status:"pending" uuid:"eb5f4171-f04b-4fff-9f38-5e81cd3b39dd"]
+new [description:"test123" entry:"1625240755" modified:"1625240981" status:"pending" uuid:"eb5f4171-f04b-4fff-9f38-5e81cd3b39dd"]
+---
+time 1625240987
+old [description:"test123" entry:"1625240755" modified:"1625240981" status:"pending" uuid:"eb5f4171-f04b-4fff-9f38-5e81cd3b39dd"]
+new [description:"test123" end:"1625240987" entry:"1625240755" modified:"1625240987" status:"completed" uuid:"eb5f4171-f04b-4fff-9f38-5e81cd3b39dd"]
+---
+time 1625240994
+new [description:"Learn TASK" entry:"1625240994" modified:"1625240994" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+---
+time 1625240997
+old [description:"Learn TASK" entry:"1625240994" modified:"1625240994" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+new [description:"Learn TASK" entry:"1625240994" modified:"1625240997" start:"1625240997" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+---
+time 1625241017
+old [description:"Learn TASK" entry:"1625240994" modified:"1625240997" start:"1625240997" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+new [annotation_1625241017:"Just learning by doing!!! it will be fun" description:"Learn TASK" entry:"1625240994" modified:"1625241017" start:"1625240997" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+---
+time 1625241185
+new [description:"HP Tinte und Papiere kaufen" due:"1625436000" entry:"1625241185" modified:"1625241185" status:"pending" uuid:"3efc0136-6be7-4a03-9315-d0d0e7ac2cb2"]
+---
+time 1625241238
+new [description:"Anker USB Lader C und iPhone kaufen" due:"1626040800" end:"1625241238" entry:"1625241238" modified:"1625241238" status:"completed" uuid:"549cbf89-71a3-4719-8b3a-efb8326d6aa5"]
+---
+time 1625241276
+new [description:"Anker USB-C und iphone Ladegeräte kaufen" due:"1626300000" entry:"1625241276" modified:"1625241276" status:"pending" uuid:"b7c5bffb-2611-42ed-a0a7-3050b6c5fcee"]
+---
+time 1625241301
+new [description:"Hinterrad für Rennrad bestellen" entry:"1625241301" modified:"1625241301" status:"pending" uuid:"52bc3e7f-5c5a-40f3-87bb-5600a2d37820"]
+---
+time 1625241322
+new [description:"Kaffee am Holzmarkt kaufen" entry:"1625241322" modified:"1625241322" status:"pending" uuid:"22da93f0-90d2-4b92-b631-2bec8dcb8f55"]
+---
+time 1625241345
+old [description:"Kaffee am Holzmarkt kaufen" entry:"1625241322" modified:"1625241322" status:"pending" uuid:"22da93f0-90d2-4b92-b631-2bec8dcb8f55"]
+new [annotation_1625241345:"lecker lecker Kaffee" description:"Kaffee am Holzmarkt kaufen" entry:"1625241322" modified:"1625241345" status:"pending" uuid:"22da93f0-90d2-4b92-b631-2bec8dcb8f55"]
+---
+time 1625241365
+old [annotation_1625241017:"Just learning by doing!!! it will be fun" description:"Learn TASK" entry:"1625240994" modified:"1625241017" start:"1625240997" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+new [annotation_1625241017:"Just learning by doing!!! it will be fun" annotation_1625241365:"A to annotate stuff" description:"Learn TASK" entry:"1625240994" modified:"1625241365" start:"1625240997" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+---
+time 1625241399
+new [description:"Conjoint Analyse in R oder Excel lernen" entry:"1625241399" modified:"1625241399" status:"pending" uuid:"2093613e-a03d-4bbc-bda7-a889deb59be6"]
+---
+time 1625241421
+old [description:"Conjoint Analyse in R oder Excel lernen" entry:"1625241399" modified:"1625241399" status:"pending" uuid:"2093613e-a03d-4bbc-bda7-a889deb59be6"]
+new [description:"Conjoint Analyse in R oder Excel lernen" entry:"1625241399" modified:"1625241421" project:"WORK" status:"pending" uuid:"2093613e-a03d-4bbc-bda7-a889deb59be6"]
+---
+time 1625241448
+new [description:"von Westendorp Analyse pricing lernen" entry:"1625241448" modified:"1625241448" project:"WORK" status:"pending" uuid:"e5967bcd-2db6-442e-9273-050bbaf2ba4a"]
+---
+time 1625241470
+old [description:"HP Tinte und Papiere kaufen" due:"1625436000" entry:"1625241185" modified:"1625241185" status:"pending" uuid:"3efc0136-6be7-4a03-9315-d0d0e7ac2cb2"]
+new [annotation_1625241470:"idealo?" description:"HP Tinte und Papiere kaufen" due:"1625436000" entry:"1625241185" modified:"1625241470" status:"pending" uuid:"3efc0136-6be7-4a03-9315-d0d0e7ac2cb2"]
+---
+time 1625241481
+old [annotation_1625241017:"Just learning by doing!!! it will be fun" annotation_1625241365:"A to annotate stuff" description:"Learn TASK" entry:"1625240994" modified:"1625241365" start:"1625240997" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+new [annotation_1625241017:"Just learning by doing!!! it will be fun" annotation_1625241365:"A to annotate stuff" description:"Learn TASK" entry:"1625240994" modified:"1625241481" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+---
+time 1625241491
+old [annotation_1625241017:"Just learning by doing!!! it will be fun" annotation_1625241365:"A to annotate stuff" description:"Learn TASK" entry:"1625240994" modified:"1625241481" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+new [annotation_1625241017:"Just learning by doing!!! it will be fun" annotation_1625241365:"A to annotate stuff" description:"Learn TASK" entry:"1625240994" modified:"1625241491" start:"1625241491" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+---
+time 1625241517
+old [annotation_1625241017:"Just learning by doing!!! it will be fun" annotation_1625241365:"A to annotate stuff" description:"Learn TASK" entry:"1625240994" modified:"1625241491" start:"1625241491" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+new [annotation_1625241017:"Just learning by doing!!! it will be fun" annotation_1625241365:"A to annotate stuff" description:"Learn TASK" entry:"1625240994" modified:"1625241517" project:"SHELL" start:"1625241491" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+---
+time 1625241538
+old [annotation_1625241470:"idealo?" description:"HP Tinte und Papiere kaufen" due:"1625436000" entry:"1625241185" modified:"1625241470" status:"pending" uuid:"3efc0136-6be7-4a03-9315-d0d0e7ac2cb2"]
+new [annotation_1625241470:"idealo?" description:"HP Tinte und Papiere kaufen" due:"1625436000" entry:"1625241185" modified:"1625241538" project:"private" status:"pending" uuid:"3efc0136-6be7-4a03-9315-d0d0e7ac2cb2"]
+---
+time 1625241560
+old [description:"Anker USB-C und iphone Ladegeräte kaufen" due:"1626300000" entry:"1625241276" modified:"1625241276" status:"pending" uuid:"b7c5bffb-2611-42ed-a0a7-3050b6c5fcee"]
+new [description:"Anker USB-C und iphone Ladegeräte kaufen" due:"1626300000" entry:"1625241276" modified:"1625241560" project:"PRIVATE" status:"pending" uuid:"b7c5bffb-2611-42ed-a0a7-3050b6c5fcee"]
+---
+time 1625241610
+old [annotation_1625241017:"Just learning by doing!!! it will be fun" annotation_1625241365:"A to annotate stuff" description:"Learn TASK" entry:"1625240994" modified:"1625241517" project:"SHELL" start:"1625241491" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+new [annotation_1625241017:"Just learning by doing!!! it will be fun" annotation_1625241365:"A to annotate stuff" description:"new-modification" entry:"1625240994" modified:"1625241610" project:"SHELL" start:"1625241491" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+---
+time 1625241657
+old [annotation_1625241017:"Just learning by doing!!! it will be fun" annotation_1625241365:"A to annotate stuff" description:"new-modification" entry:"1625240994" modified:"1625241610" project:"SHELL" start:"1625241491" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+new [annotation_1625241017:"Just learning by doing!!! it will be fun" annotation_1625241365:"A to annotate stuff" description:"Taskwarrior lernen" entry:"1625240994" modified:"1625241657" project:"SHELL" start:"1625241491" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+---
+time 1625241862
+old [annotation_1625241470:"idealo?" description:"HP Tinte und Papiere kaufen" due:"1625436000" entry:"1625241185" modified:"1625241538" project:"private" status:"pending" uuid:"3efc0136-6be7-4a03-9315-d0d0e7ac2cb2"]
+new [annotation_1625241470:"idealo?" description:"HP Tinte und Papiere kaufen" due:"1625436000" entry:"1625241185" modified:"1625241862" project:"PRIVATE" status:"pending" uuid:"3efc0136-6be7-4a03-9315-d0d0e7ac2cb2"]
+---
+time 1625241875
+old [annotation_1625241345:"lecker lecker Kaffee" description:"Kaffee am Holzmarkt kaufen" entry:"1625241322" modified:"1625241345" status:"pending" uuid:"22da93f0-90d2-4b92-b631-2bec8dcb8f55"]
+new [annotation_1625241345:"lecker lecker Kaffee" description:"Kaffee am Holzmarkt kaufen" entry:"1625241322" modified:"1625241875" project:"PRIVATE" status:"pending" uuid:"22da93f0-90d2-4b92-b631-2bec8dcb8f55"]
+---
+time 1625241941
+old [description:"Anker USB Lader C und iPhone kaufen" due:"1626040800" end:"1625241238" entry:"1625241238" modified:"1625241238" status:"completed" uuid:"549cbf89-71a3-4719-8b3a-efb8326d6aa5"]
+new [description:"Anker USB Lader C und iPhone kaufen" due:"1626040800" end:"1625241238" entry:"1625241238" modified:"1625241941" project:"PRIVATE" status:"completed" uuid:"549cbf89-71a3-4719-8b3a-efb8326d6aa5"]
+---
+time 1625241966
+old [description:"Hinterrad für Rennrad bestellen" entry:"1625241301" modified:"1625241301" status:"pending" uuid:"52bc3e7f-5c5a-40f3-87bb-5600a2d37820"]
+new [description:"Hinterrad für Rennrad bestellen" entry:"1625241301" modified:"1625241966" project:"BIKE" status:"pending" uuid:"52bc3e7f-5c5a-40f3-87bb-5600a2d37820"]
+---
+time 1626385522
+old [annotation_1625241470:"idealo?" description:"HP Tinte und Papiere kaufen" due:"1625436000" entry:"1625241185" modified:"1625241862" project:"PRIVATE" status:"pending" uuid:"3efc0136-6be7-4a03-9315-d0d0e7ac2cb2"]
+new [annotation_1625241470:"idealo?" description:"HP Tinte und Papiere kaufen" due:"1625436000" end:"1626385522" entry:"1625241185" modified:"1626385522" project:"PRIVATE" status:"completed" uuid:"3efc0136-6be7-4a03-9315-d0d0e7ac2cb2"]
+---
+time 1626386118
+old [description:"Anker USB-C und iphone Ladegeräte kaufen" due:"1626300000" entry:"1625241276" modified:"1625241560" project:"PRIVATE" status:"pending" uuid:"b7c5bffb-2611-42ed-a0a7-3050b6c5fcee"]
+new [description:"Anker USB-C und iphone Ladegeräte kaufen" due:"1626300000" end:"1626386118" entry:"1625241276" modified:"1626386118" project:"PRIVATE" status:"completed" uuid:"b7c5bffb-2611-42ed-a0a7-3050b6c5fcee"]
+---
+time 1626386123
+old [annotation_1625241017:"Just learning by doing!!! it will be fun" annotation_1625241365:"A to annotate stuff" description:"Taskwarrior lernen" entry:"1625240994" modified:"1625241657" project:"SHELL" start:"1625241491" status:"pending" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+new [annotation_1625241017:"Just learning by doing!!! it will be fun" annotation_1625241365:"A to annotate stuff" description:"Taskwarrior lernen" end:"1626386123" entry:"1625240994" modified:"1626386123" project:"SHELL" status:"completed" uuid:"d3c2e810-3adb-46fb-b3aa-a193c2410c5b"]
+---
+time 1626386177
+old [description:"SCRUM PO lernen" due:"1627682400" entry:"1625240801" modified:"1625240957" project:"SCRUM PO" status:"pending" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+new [description:"SCRUM PO lernen" due:"1630360800" entry:"1625240801" modified:"1626386177" project:"SCRUM PO" status:"pending" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+---
+time 1626386334
+new [description:"Außenbereich - Strom planen" entry:"1626386334" modified:"1626386334" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1626386352
+new [description:"Außenbereich - Strom \/ Elektro einbauen" entry:"1626386352" modified:"1626386352" status:"pending" uuid:"e2591ba7-f931-4371-85ad-b797dba9b644"]
+---
+time 1626386370
+new [description:"Außenbereich - Lampen planen" entry:"1626386370" modified:"1626386370" status:"pending" uuid:"284122db-69b2-45e9-9cb5-5efc105931fc"]
+---
+time 1626386401
+old [description:"Außenbereich - Strom planen" entry:"1626386334" modified:"1626386334" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626386401" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1626386428
+old [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626386401" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626386428" project:"Terrasse" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1626386461
+old [description:"Außenbereich - Strom \/ Elektro einbauen" entry:"1626386352" modified:"1626386352" status:"pending" uuid:"e2591ba7-f931-4371-85ad-b797dba9b644"]
+new [description:"Außenbereich - Strom \/ Elektro einbauen" due:"1628546400" entry:"1626386352" modified:"1626386461" project:"Terrasse" status:"pending" uuid:"e2591ba7-f931-4371-85ad-b797dba9b644"]
+---
+time 1626386497
+old [description:"Außenbereich - Lampen planen" entry:"1626386370" modified:"1626386370" status:"pending" uuid:"284122db-69b2-45e9-9cb5-5efc105931fc"]
+new [description:"Außenbereich - Lampen planen" due:"1627682400" entry:"1626386370" modified:"1626386497" project:"Terrasse" status:"pending" uuid:"284122db-69b2-45e9-9cb5-5efc105931fc"]
+---
+time 1626589512
+new [description:"Thule bestellen" due:"1626904800" entry:"1626589512" modified:"1626589512" status:"pending" uuid:"3d9bbdb2-ec8b-4a89-b9d6-c9a5ef0a6124"]
+---
+time 1626589558
+new [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626589558" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+---
+time 1626590473
+old [description:"Thule bestellen" due:"1626904800" entry:"1626589512" modified:"1626589512" status:"pending" uuid:"3d9bbdb2-ec8b-4a89-b9d6-c9a5ef0a6124"]
+new [description:"Thule bestellen" due:"1626904800" end:"1626590473" entry:"1626589512" modified:"1626590473" status:"completed" uuid:"3d9bbdb2-ec8b-4a89-b9d6-c9a5ef0a6124"]
+---
+time 1626590481
+old [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626386428" project:"Terrasse" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626590481" project:"Terrasse" start:"1626590481" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1626590483
+old [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626590481" project:"Terrasse" start:"1626590481" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626590483" project:"Terrasse" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1626590484
+old [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626590483" project:"Terrasse" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626590484" project:"Terrasse" start:"1626590484" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1626590491
+old [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626590484" project:"Terrasse" start:"1626590484" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626590491" project:"Terrasse" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1626590574
+old [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626589558" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+new [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626590574" start:"1626590574" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+---
+time 1626590599
+old [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626590574" start:"1626590574" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+new [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626590599" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+---
+time 1626590602
+old [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626590599" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+new [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626590602" start:"1626590602" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+---
+time 1626590850
+old [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626590602" start:"1626590602" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+new [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626590850" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+---
+time 1626645098
+old [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626590850" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+new [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626645098" start:"1626645098" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+---
+time 1626645100
+old [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626645098" start:"1626645098" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+new [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626645100" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+---
+time 1626645109
+old [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626645100" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+new [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626645109" start:"1626645109" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+---
+time 1626645120
+old [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626645109" start:"1626645109" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+new [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626645120" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+---
+time 1626645157
+old [description:"Fritzbox - VPN einrichten" due:"1626645600" entry:"1626589558" modified:"1626645120" status:"pending" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+new [description:"Fritzbox - VPN einrichten" due:"1626645600" end:"1626645157" entry:"1626589558" modified:"1626645157" status:"completed" uuid:"f443480a-b9e0-4325-a1fc-8a34055d2804"]
+---
+time 1626645271
+old [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626590491" project:"Terrasse" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626645271" project:"Terrasse" start:"1626645271" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1626645275
+old [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626645271" project:"Terrasse" start:"1626645271" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626645275" project:"Terrasse" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1626645344
+old [description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626645275" project:"Terrasse" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [annotation_1626645344:"sollte man jetzt echt mal machen, was sollte da alles hin? am besten denke ich braucht man erst mal Steckdosen und eine in der Hecke versteckte Verteilerdose" description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626645344" project:"Terrasse" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1626734052
+new [description:"Lego Julian bestellen" due:"1626904800" entry:"1626734052" modified:"1626734052" status:"pending" uuid:"0a349358-c7dd-4c99-bf89-6feb14a1a7be"]
+---
+time 1626734080
+new [description:"SCRUM - was muss ich lernen" entry:"1626734080" modified:"1626734080" status:"pending" uuid:"4a3ef5b9-42a0-4de3-849d-f74eda2af6b3"]
+---
+time 1626734102
+new [description:"SCRUM PO Prüfung - Lernpfad und Termin" entry:"1626734102" modified:"1626734102" status:"pending" uuid:"de8446a9-ff74-43fe-867b-133dd7f30184"]
+---
+time 1626898375
+old [description:"Lego Julian bestellen" due:"1626904800" entry:"1626734052" modified:"1626734052" status:"pending" uuid:"0a349358-c7dd-4c99-bf89-6feb14a1a7be"]
+new [description:"Lego Julian bestellen" due:"1626904800" end:"1626898364" entry:"1626734052" modified:"1626898375" status:"deleted" uuid:"0a349358-c7dd-4c99-bf89-6feb14a1a7be"]
+---
+time 1626898446
+old [annotation_1626645344:"sollte man jetzt echt mal machen, was sollte da alles hin? am besten denke ich braucht man erst mal Steckdosen und eine in der Hecke versteckte Verteilerdose" description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626645344" project:"Terrasse" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [annotation_1626645344:"sollte man jetzt echt mal machen, was sollte da alles hin? am besten denke ich braucht man erst mal Steckdosen und eine in der Hecke versteckte Verteilerdose" annotation_1626898446:"Lampen (Hue) bestellen \/ Anka Feedback fragen. Strom direkt neben Schiebetüre plus ein wetterfester Stromkasten in Richtung Hecke" description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626898446" project:"Terrasse" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1626898449
+old [annotation_1626645344:"sollte man jetzt echt mal machen, was sollte da alles hin? am besten denke ich braucht man erst mal Steckdosen und eine in der Hecke versteckte Verteilerdose" annotation_1626898446:"Lampen (Hue) bestellen \/ Anka Feedback fragen. Strom direkt neben Schiebetüre plus ein wetterfester Stromkasten in Richtung Hecke" description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626898446" project:"Terrasse" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [annotation_1626645344:"sollte man jetzt echt mal machen, was sollte da alles hin? am besten denke ich braucht man erst mal Steckdosen und eine in der Hecke versteckte Verteilerdose" annotation_1626898446:"Lampen (Hue) bestellen \/ Anka Feedback fragen. Strom direkt neben Schiebetüre plus ein wetterfester Stromkasten in Richtung Hecke" description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626898449" project:"Terrasse" start:"1626898449" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1626898500
+old [annotation_1626645344:"sollte man jetzt echt mal machen, was sollte da alles hin? am besten denke ich braucht man erst mal Steckdosen und eine in der Hecke versteckte Verteilerdose" annotation_1626898446:"Lampen (Hue) bestellen \/ Anka Feedback fragen. Strom direkt neben Schiebetüre plus ein wetterfester Stromkasten in Richtung Hecke" description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626898449" project:"Terrasse" start:"1626898449" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [annotation_1626645344:"sollte man jetzt echt mal machen, was sollte da alles hin? am besten denke ich braucht man erst mal Steckdosen und eine in der Hecke versteckte Verteilerdose" annotation_1626898446:"Lampen (Hue) bestellen \/ Anka Feedback fragen. Strom direkt neben Schiebetüre plus ein wetterfester Stromkasten in Richtung Hecke" description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626898500" project:"Terrasse" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1626898913
+old [description:"Hinterrad für Rennrad bestellen" entry:"1625241301" modified:"1625241966" project:"BIKE" status:"pending" uuid:"52bc3e7f-5c5a-40f3-87bb-5600a2d37820"]
+new [description:"Hinterrad für Rennrad bestellen" entry:"1625241301" modified:"1626898913" project:"BIKE" status:"pending" tags:"Bike-tag" uuid:"52bc3e7f-5c5a-40f3-87bb-5600a2d37820"]
+---
+time 1626899332
+old [description:"SCRUM PO lernen" due:"1630360800" entry:"1625240801" modified:"1626386177" project:"SCRUM PO" status:"pending" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+new [description:"PO" due:"1630360800" entry:"1625240801" modified:"1626899332" project:"SCRUM PO" status:"pending" tags:"tag" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+---
+time 1626899355
+old [description:"PO" due:"1630360800" entry:"1625240801" modified:"1626899332" project:"SCRUM PO" status:"pending" tags:"tag" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+new [description:"PO" due:"1630360800" entry:"1625240801" modified:"1626899355" project:"SCRUM PO" status:"pending" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+---
+time 1626899391
+old [description:"PO" due:"1630360800" entry:"1625240801" modified:"1626899355" project:"SCRUM PO" status:"pending" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+new [description:"PO" due:"1630360800" entry:"1625240801" modified:"1626899391" project:"SCRUM PO" status:"pending" tags:"PO,SCRUM" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+---
+time 1626899432
+old [annotation_1625241345:"lecker lecker Kaffee" description:"Kaffee am Holzmarkt kaufen" entry:"1625241322" modified:"1625241875" project:"PRIVATE" status:"pending" uuid:"22da93f0-90d2-4b92-b631-2bec8dcb8f55"]
+new [annotation_1625241345:"lecker lecker Kaffee" description:"6:8" entry:"1625241322" modified:"1626899432" project:"PRIVATE" status:"pending" tags:"private" uuid:"22da93f0-90d2-4b92-b631-2bec8dcb8f55"]
+---
+time 1626899497
+old [annotation_1625241345:"lecker lecker Kaffee" description:"6:8" entry:"1625241322" modified:"1626899432" project:"PRIVATE" status:"pending" tags:"private" uuid:"22da93f0-90d2-4b92-b631-2bec8dcb8f55"]
+new [annotation_1625241345:"lecker lecker Kaffee" description:"Kaffe am Holzmarkt kaufen" entry:"1625241322" modified:"1626899497" project:"PRIVATE" status:"pending" tags:"private" uuid:"22da93f0-90d2-4b92-b631-2bec8dcb8f55"]
+---
+time 1626899671
+old [description:"Hinterrad für Rennrad bestellen" entry:"1625241301" modified:"1626898913" project:"BIKE" status:"pending" tags:"Bike-tag" uuid:"52bc3e7f-5c5a-40f3-87bb-5600a2d37820"]
+new [description:"Hinterrad für Rennrad bestellen" entry:"1625241301" modified:"1626899671" project:"BIKE" status:"pending" tags:"Bike-tag,private" uuid:"52bc3e7f-5c5a-40f3-87bb-5600a2d37820"]
+---
+time 1626899680
+old [annotation_1626645344:"sollte man jetzt echt mal machen, was sollte da alles hin? am besten denke ich braucht man erst mal Steckdosen und eine in der Hecke versteckte Verteilerdose" annotation_1626898446:"Lampen (Hue) bestellen \/ Anka Feedback fragen. Strom direkt neben Schiebetüre plus ein wetterfester Stromkasten in Richtung Hecke" description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626898500" project:"Terrasse" status:"pending" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [annotation_1626645344:"sollte man jetzt echt mal machen, was sollte da alles hin? am besten denke ich braucht man erst mal Steckdosen und eine in der Hecke versteckte Verteilerdose" annotation_1626898446:"Lampen (Hue) bestellen \/ Anka Feedback fragen. Strom direkt neben Schiebetüre plus ein wetterfester Stromkasten in Richtung Hecke" description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626899680" project:"Terrasse" status:"pending" tags:"private" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1626899683
+old [description:"Außenbereich - Strom \/ Elektro einbauen" due:"1628546400" entry:"1626386352" modified:"1626386461" project:"Terrasse" status:"pending" uuid:"e2591ba7-f931-4371-85ad-b797dba9b644"]
+new [description:"Außenbereich - Strom \/ Elektro einbauen" due:"1628546400" entry:"1626386352" modified:"1626899683" project:"Terrasse" status:"pending" tags:"private" uuid:"e2591ba7-f931-4371-85ad-b797dba9b644"]
+---
+time 1626899684
+old [description:"Außenbereich - Lampen planen" due:"1627682400" entry:"1626386370" modified:"1626386497" project:"Terrasse" status:"pending" uuid:"284122db-69b2-45e9-9cb5-5efc105931fc"]
+new [description:"Außenbereich - Lampen planen" due:"1627682400" entry:"1626386370" modified:"1626899684" project:"Terrasse" status:"pending" tags:"private" uuid:"284122db-69b2-45e9-9cb5-5efc105931fc"]
+---
+time 1626899806
+old [description:"von Westendorp Analyse pricing lernen" entry:"1625241448" modified:"1625241448" project:"WORK" status:"pending" uuid:"e5967bcd-2db6-442e-9273-050bbaf2ba4a"]
+new [description:"von Westendorp Analyse pricing lernen" entry:"1625241448" modified:"1626899806" project:"WORK" status:"pending" tags:"work" uuid:"e5967bcd-2db6-442e-9273-050bbaf2ba4a"]
+---
+time 1626899861
+new [description:"5" end:"1626899861" entry:"1626899861" modified:"1626899861" status:"completed" uuid:"4fe92c66-c4e2-45b9-a00f-7a69bb87a80a"]
+---
+time 1626899871
+new [description:"log task" end:"1626899871" entry:"1626899871" modified:"1626899871" status:"completed" uuid:"7e600249-442b-479a-b45f-f8e290f990da"]
+---
+time 1626899931
+old [description:"Conjoint Analyse in R oder Excel lernen" entry:"1625241399" modified:"1625241421" project:"WORK" status:"pending" uuid:"2093613e-a03d-4bbc-bda7-a889deb59be6"]
+new [description:"Conjoint Analyse in R oder Excel lernen" entry:"1625241399" modified:"1626899931" project:"WORK" status:"pending" tags:"work" uuid:"2093613e-a03d-4bbc-bda7-a889deb59be6"]
+---
+time 1626900654
+new [description:"breakfast" due:"1626933600" entry:"1626900654" modified:"1626900654" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1626900661
+new [description:"breakfast" due:"1626933600" entry:"1626900661" imask:"0" modified:"1626900654" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"cd43383d-9d03-4361-9169-13dca5879966"]
+---
+time 1626900661
+old [description:"breakfast" due:"1626933600" entry:"1626900654" modified:"1626900654" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"-" modified:"1626900661" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1626900695
+old [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"-" modified:"1626900661" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"+" modified:"1626900695" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1626900695
+old [description:"breakfast" due:"1626933600" entry:"1626900661" imask:"0" modified:"1626900654" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"cd43383d-9d03-4361-9169-13dca5879966"]
+new [description:"breakfast" due:"1626933600" end:"1626900695" entry:"1626900661" imask:"0" modified:"1626900695" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"cd43383d-9d03-4361-9169-13dca5879966"]
+---
+time 1626901127
+old [description:"SCRUM - was muss ich lernen" entry:"1626734080" modified:"1626734080" status:"pending" uuid:"4a3ef5b9-42a0-4de3-849d-f74eda2af6b3"]
+new [description:"SCRUM - was muss ich lernen" entry:"1626734080" modified:"1626901127" status:"pending" tags:"PO" uuid:"4a3ef5b9-42a0-4de3-849d-f74eda2af6b3"]
+---
+time 1626901127
+old [description:"SCRUM PO Prüfung - Lernpfad und Termin" entry:"1626734102" modified:"1626734102" status:"pending" uuid:"de8446a9-ff74-43fe-867b-133dd7f30184"]
+new [description:"SCRUM PO Prüfung - Lernpfad und Termin" entry:"1626734102" modified:"1626901127" status:"pending" tags:"PO" uuid:"de8446a9-ff74-43fe-867b-133dd7f30184"]
+---
+time 1626901295
+old [description:"SCRUM - was muss ich lernen" entry:"1626734080" modified:"1626901127" status:"pending" tags:"PO" uuid:"4a3ef5b9-42a0-4de3-849d-f74eda2af6b3"]
+new [depends:"de8446a9-ff74-43fe-867b-133dd7f30184" description:"SCRUM - was muss ich lernen" entry:"1626734080" modified:"1626901295" status:"pending" tags:"PO" uuid:"4a3ef5b9-42a0-4de3-849d-f74eda2af6b3"]
+---
+time 1627031029
+new [description:"test123" entry:"1626865191" modified:"1626865191" status:"pending" uuid:"802960a8-cf3d-41df-969c-f9c351beb842"]
+---
+time 1627031029
+old [description:"test123" entry:"1626865191" modified:"1626865191" status:"pending" uuid:"802960a8-cf3d-41df-969c-f9c351beb842"]
+new [description:"test123" entry:"1626865191" modified:"1626865200" start:"1626865200" status:"pending" uuid:"802960a8-cf3d-41df-969c-f9c351beb842"]
+---
+time 1627031029
+old [description:"test123" entry:"1626865191" modified:"1626865200" start:"1626865200" status:"pending" uuid:"802960a8-cf3d-41df-969c-f9c351beb842"]
+new [description:"test123" entry:"1626865191" modified:"1626865204" status:"pending" uuid:"802960a8-cf3d-41df-969c-f9c351beb842"]
+---
+time 1627031029
+old [description:"test123" entry:"1626865191" modified:"1626865204" status:"pending" uuid:"802960a8-cf3d-41df-969c-f9c351beb842"]
+new [annotation_1626865312:"ahh nootate" description:"test123" entry:"1626865191" modified:"1626865312" status:"pending" uuid:"802960a8-cf3d-41df-969c-f9c351beb842"]
+---
+time 1627031029
+new [description:"new one" entry:"1626871372" modified:"1626871372" status:"pending" uuid:"670ad44a-3d3d-492c-b4b6-9bca9ec2daed"]
+---
+time 1627031092
+new [description:"breakfast" due:"1627020000" entry:"1627031092" imask:"1" modified:"1626900695" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"d3487644-888e-4100-b6f6-685d1e43c149"]
+---
+time 1627031092
+new [description:"breakfast" due:"1627106400" entry:"1627031092" imask:"2" modified:"1626900695" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"3446951b-2d48-4292-b649-791123ccbd59"]
+---
+time 1627031092
+old [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"+" modified:"1626900695" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"+--" modified:"1627031092" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1627031114
+old [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"+--" modified:"1627031092" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++-" modified:"1627031114" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1627031114
+old [description:"breakfast" due:"1627020000" entry:"1627031092" imask:"1" modified:"1626900695" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"d3487644-888e-4100-b6f6-685d1e43c149"]
+new [description:"breakfast" due:"1627020000" end:"1627031114" entry:"1627031092" imask:"1" modified:"1627031114" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"d3487644-888e-4100-b6f6-685d1e43c149"]
+---
+time 1627031157
+old [annotation_1626865312:"ahh nootate" description:"test123" entry:"1626865191" modified:"1626865312" status:"pending" uuid:"802960a8-cf3d-41df-969c-f9c351beb842"]
+new [annotation_1626865312:"ahh nootate" description:"test123" end:"1627031157" entry:"1626865191" modified:"1627031157" status:"deleted" uuid:"802960a8-cf3d-41df-969c-f9c351beb842"]
+---
+time 1627031157
+old [description:"new one" entry:"1626871372" modified:"1626871372" status:"pending" uuid:"670ad44a-3d3d-492c-b4b6-9bca9ec2daed"]
+new [description:"new one" end:"1627031157" entry:"1626871372" modified:"1627031157" status:"deleted" uuid:"670ad44a-3d3d-492c-b4b6-9bca9ec2daed"]
+---
+time 1627031198
+new [description:"breakfast" due:"1627020000" entry:"1627031034" imask:"1.000000" modified:"1626900695" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"272eccb1-1a1c-4220-b300-852be451b9de"]
+---
+time 1627031198
+new [description:"breakfast" due:"1627106400" entry:"1627031034" imask:"2.000000" modified:"1626900695" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"10109f68-11db-47a1-a94f-cc494ceb1ec3"]
+---
+time 1627031198
+old [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++-" modified:"1627031114" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"+--" modified:"1627031034" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1627031198
+old [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"+--" modified:"1627031034" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++-" modified:"1627031114" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1627031239
+old [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++-" modified:"1627031114" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++X" modified:"1627031239" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1627031239
+old [description:"breakfast" due:"1627106400" entry:"1627031034" imask:"2.000000" modified:"1626900695" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"10109f68-11db-47a1-a94f-cc494ceb1ec3"]
+new [description:"breakfast" due:"1627106400" end:"1627031239" entry:"1627031034" imask:"2.000000" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"deleted" uuid:"10109f68-11db-47a1-a94f-cc494ceb1ec3"]
+---
+time 1627031240
+old [description:"breakfast" due:"1627106400" entry:"1627031092" imask:"2" modified:"1626900695" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"3446951b-2d48-4292-b649-791123ccbd59"]
+new [description:"breakfast" due:"1627106400" end:"1627031240" entry:"1627031092" imask:"2" modified:"1627031240" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"deleted" uuid:"3446951b-2d48-4292-b649-791123ccbd59"]
+---
+time 1627031245
+old [description:"breakfast" due:"1627020000" entry:"1627031034" imask:"1.000000" modified:"1626900695" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"272eccb1-1a1c-4220-b300-852be451b9de"]
+new [description:"breakfast" due:"1627020000" end:"1627031245" entry:"1627031034" imask:"1.000000" modified:"1627031245" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"272eccb1-1a1c-4220-b300-852be451b9de"]
+---
+time 1627031718
+new [description:"task from macmini-sync test" entry:"1627031700" modified:"1627031700" status:"pending" uuid:"b92b67b3-2199-48a8-aae4-756233b84779"]
+---
+time 1627893210
+new [description:"breakfast" due:"1627192800" entry:"1627893210" imask:"3" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"d0eb2db0-7df9-4878-a0aa-4bf8885605a3"]
+---
+time 1627893210
+new [description:"breakfast" due:"1627279200" entry:"1627893210" imask:"4" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"0b2a81fd-f57c-406d-9c5a-fd90d9463aa5"]
+---
+time 1627893210
+new [description:"breakfast" due:"1627365600" entry:"1627893210" imask:"5" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"3530be6c-cf7b-4aca-b82e-83b81e930142"]
+---
+time 1627893210
+new [description:"breakfast" due:"1627452000" entry:"1627893210" imask:"6" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"a95314fb-800f-4eb1-b226-f873b153b203"]
+---
+time 1627893210
+new [description:"breakfast" due:"1627538400" entry:"1627893210" imask:"7" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"9f147ffb-8e90-40a7-8dbd-64323a8a9340"]
+---
+time 1627893210
+new [description:"breakfast" due:"1627624800" entry:"1627893210" imask:"8" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"dd19fc24-c46e-433c-83ad-95bb9063ed07"]
+---
+time 1627893210
+new [description:"breakfast" due:"1627711200" entry:"1627893210" imask:"9" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"0f1ffa1e-211f-4283-b2d8-eb64a853f123"]
+---
+time 1627893210
+new [description:"breakfast" due:"1627797600" entry:"1627893210" imask:"10" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"a914c108-41b7-4621-bfad-c4191c4f626f"]
+---
+time 1627893210
+new [description:"breakfast" due:"1627884000" entry:"1627893210" imask:"11" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"4ae4c0de-4225-43ae-a6cb-8a11b9f2e0cc"]
+---
+time 1627893210
+new [description:"breakfast" due:"1627970400" entry:"1627893210" imask:"12" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"224a67c1-11cb-435a-afe4-3396882234bf"]
+---
+time 1627893210
+old [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++X" modified:"1627031239" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++X----------" modified:"1627893210" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1627893227
+new [description:"breakfast" due:"1627192800" entry:"1627160228" imask:"3.000000" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"247f716a-b7f3-4acc-8053-a284e4fed23b"]
+---
+time 1627893227
+old [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++X----------" modified:"1627893210" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++X-" modified:"1627160228" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1627893227
+new [description:"breakfast" due:"1627192800" entry:"1627158731" imask:"3.000000" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"c4b80696-4494-4a11-98dd-f4eff97dfe16"]
+---
+time 1627893227
+old [description:"breakfast" due:"1627192800" entry:"1627158731" imask:"3.000000" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"c4b80696-4494-4a11-98dd-f4eff97dfe16"]
+new [description:"breakfast" due:"1627192800" end:"1627158744" entry:"1627158731" imask:"3.000000" modified:"1627158744" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"c4b80696-4494-4a11-98dd-f4eff97dfe16"]
+---
+time 1627893227
+old [description:"Außenbereich - Lampen planen" due:"1627682400" entry:"1626386370" modified:"1626899684" project:"Terrasse" status:"pending" tags:"private" uuid:"284122db-69b2-45e9-9cb5-5efc105931fc"]
+new [annotation_1627158789:"alles klar, recht und links neben Schiebetüre + eine Lampe für andere Hausseite" description:"Außenbereich - Lampen planen" due:"1627682400" entry:"1626386370" modified:"1627158789" project:"Terrasse" status:"pending" tags:"private" uuid:"284122db-69b2-45e9-9cb5-5efc105931fc"]
+---
+time 1627893227
+old [annotation_1626645344:"sollte man jetzt echt mal machen, was sollte da alles hin? am besten denke ich braucht man erst mal Steckdosen und eine in der Hecke versteckte Verteilerdose" annotation_1626898446:"Lampen (Hue) bestellen \/ Anka Feedback fragen. Strom direkt neben Schiebetüre plus ein wetterfester Stromkasten in Richtung Hecke" description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1626899680" project:"Terrasse" status:"pending" tags:"private" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [annotation_1626645344:"sollte man jetzt echt mal machen, was sollte da alles hin? am besten denke ich braucht man erst mal Steckdosen und eine in der Hecke versteckte Verteilerdose" annotation_1626898446:"Lampen (Hue) bestellen \/ Anka Feedback fragen. Strom direkt neben Schiebetüre plus ein wetterfester Stromkasten in Richtung Hecke" annotation_1627158850:"Lampen Kabel prüfen von innen, Steckdose bestellen und setzten + Wetterfest Verteilerdose in Richtung Hecke" description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1627158850" project:"Terrasse" status:"pending" tags:"private" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1627893227
+old [annotation_1626645344:"sollte man jetzt echt mal machen, was sollte da alles hin? am besten denke ich braucht man erst mal Steckdosen und eine in der Hecke versteckte Verteilerdose" annotation_1626898446:"Lampen (Hue) bestellen \/ Anka Feedback fragen. Strom direkt neben Schiebetüre plus ein wetterfester Stromkasten in Richtung Hecke" annotation_1627158850:"Lampen Kabel prüfen von innen, Steckdose bestellen und setzten + Wetterfest Verteilerdose in Richtung Hecke" description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1627158850" project:"Terrasse" status:"pending" tags:"private" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [annotation_1626645344:"sollte man jetzt echt mal machen, was sollte da alles hin? am besten denke ich braucht man erst mal Steckdosen und eine in der Hecke versteckte Verteilerdose" annotation_1626898446:"Lampen (Hue) bestellen \/ Anka Feedback fragen. Strom direkt neben Schiebetüre plus ein wetterfester Stromkasten in Richtung Hecke" annotation_1627158850:"Lampen Kabel prüfen von innen, Steckdose bestellen und setzten + Wetterfest Verteilerdose in Richtung Hecke" annotation_1627160280:"One more Annotation from inthe.am" description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1627160280" project:"Terrasse" status:"pending" tags:"private" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1627893227
+old [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++X-" modified:"1627160228" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++XX" modified:"1627160307" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1627893227
+old [description:"breakfast" due:"1627192800" entry:"1627160228" imask:"3.000000" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"247f716a-b7f3-4acc-8053-a284e4fed23b"]
+new [description:"breakfast" due:"1627192800" end:"1627160307" entry:"1627160228" imask:"3.000000" modified:"1627160307" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"deleted" uuid:"247f716a-b7f3-4acc-8053-a284e4fed23b"]
+---
+time 1627893227
+new [description:"breakfast" due:"1627279200" entry:"1627337071" imask:"4.000000" modified:"1627160307" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"02d97e6b-a2b9-47ef-9a24-5f39fbba3990"]
+---
+time 1627893227
+new [description:"breakfast" due:"1627365600" entry:"1627337071" imask:"5.000000" modified:"1627160307" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"7eab124d-46ba-4018-8c06-98d213b703e4"]
+---
+time 1627893227
+old [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++XX" modified:"1627160307" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++XX--" modified:"1627337071" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1627893227
+old [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++XX--" modified:"1627337071" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++X----------" modified:"1627893210" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1628079211
+new [description:"breakfast" due:"1628056800" entry:"1628020378" imask:"13.000000" modified:"1627893210" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"c03280fc-e108-4f27-853b-63734a52ed21"]
+---
+time 1628079211
+old [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++X----------" modified:"1627893210" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++X-----------" modified:"1628020378" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1628079211
+new [description:"breakfast" due:"1628056800" entry:"1628020434" imask:"13.000000" modified:"1627893210" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"e6cb56e2-63de-4756-833b-e68d89eba816"]
+---
+time 1628079211
+old [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++X-----------" modified:"1628020378" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++X+++++++++++" modified:"1628020485" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1628079211
+old [description:"breakfast" due:"1627279200" entry:"1627337071" imask:"4.000000" modified:"1627160307" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"02d97e6b-a2b9-47ef-9a24-5f39fbba3990"]
+new [description:"breakfast" due:"1627279200" end:"1628020441" entry:"1627337071" imask:"4.000000" modified:"1628020441" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"02d97e6b-a2b9-47ef-9a24-5f39fbba3990"]
+---
+time 1628079211
+old [description:"breakfast" due:"1627365600" entry:"1627337071" imask:"5.000000" modified:"1627160307" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"7eab124d-46ba-4018-8c06-98d213b703e4"]
+new [description:"breakfast" due:"1627365600" end:"1628020441" entry:"1627337071" imask:"5.000000" modified:"1628020441" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"7eab124d-46ba-4018-8c06-98d213b703e4"]
+---
+time 1628079211
+old [description:"breakfast" due:"1627192800" entry:"1627893210" imask:"3" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"d0eb2db0-7df9-4878-a0aa-4bf8885605a3"]
+new [description:"breakfast" due:"1627192800" end:"1628020442" entry:"1627893210" imask:"3.000000" modified:"1628020442" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"d0eb2db0-7df9-4878-a0aa-4bf8885605a3"]
+---
+time 1628079211
+old [description:"breakfast" due:"1627279200" entry:"1627893210" imask:"4" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"0b2a81fd-f57c-406d-9c5a-fd90d9463aa5"]
+new [description:"breakfast" due:"1627279200" end:"1628020442" entry:"1627893210" imask:"4.000000" modified:"1628020442" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"0b2a81fd-f57c-406d-9c5a-fd90d9463aa5"]
+---
+time 1628079211
+old [description:"breakfast" due:"1627365600" entry:"1627893210" imask:"5" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"3530be6c-cf7b-4aca-b82e-83b81e930142"]
+new [description:"breakfast" due:"1627365600" end:"1628020442" entry:"1627893210" imask:"5.000000" modified:"1628020442" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"3530be6c-cf7b-4aca-b82e-83b81e930142"]
+---
+time 1628079211
+old [description:"breakfast" due:"1627452000" entry:"1627893210" imask:"6" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"a95314fb-800f-4eb1-b226-f873b153b203"]
+new [description:"breakfast" due:"1627452000" end:"1628020442" entry:"1627893210" imask:"6.000000" modified:"1628020442" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"a95314fb-800f-4eb1-b226-f873b153b203"]
+---
+time 1628079211
+old [description:"breakfast" due:"1627538400" entry:"1627893210" imask:"7" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"9f147ffb-8e90-40a7-8dbd-64323a8a9340"]
+new [description:"breakfast" due:"1627538400" end:"1628020443" entry:"1627893210" imask:"7.000000" modified:"1628020443" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"9f147ffb-8e90-40a7-8dbd-64323a8a9340"]
+---
+time 1628079211
+old [description:"breakfast" due:"1627624800" entry:"1627893210" imask:"8" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"dd19fc24-c46e-433c-83ad-95bb9063ed07"]
+new [description:"breakfast" due:"1627624800" end:"1628020443" entry:"1627893210" imask:"8.000000" modified:"1628020443" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"dd19fc24-c46e-433c-83ad-95bb9063ed07"]
+---
+time 1628079211
+old [description:"breakfast" due:"1627711200" entry:"1627893210" imask:"9" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"0f1ffa1e-211f-4283-b2d8-eb64a853f123"]
+new [description:"breakfast" due:"1627711200" end:"1628020443" entry:"1627893210" imask:"9.000000" modified:"1628020443" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"0f1ffa1e-211f-4283-b2d8-eb64a853f123"]
+---
+time 1628079211
+old [description:"breakfast" due:"1627797600" entry:"1627893210" imask:"10" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"a914c108-41b7-4621-bfad-c4191c4f626f"]
+new [description:"breakfast" due:"1627797600" end:"1628020443" entry:"1627893210" imask:"10.000000" modified:"1628020443" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"a914c108-41b7-4621-bfad-c4191c4f626f"]
+---
+time 1628079211
+old [description:"breakfast" due:"1627884000" entry:"1627893210" imask:"11" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"4ae4c0de-4225-43ae-a6cb-8a11b9f2e0cc"]
+new [description:"breakfast" due:"1627884000" end:"1628020445" entry:"1627893210" imask:"11.000000" modified:"1628020445" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"4ae4c0de-4225-43ae-a6cb-8a11b9f2e0cc"]
+---
+time 1628079211
+old [description:"breakfast" due:"1627970400" entry:"1627893210" imask:"12" modified:"1627031239" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"224a67c1-11cb-435a-afe4-3396882234bf"]
+new [description:"breakfast" due:"1627970400" end:"1628020485" entry:"1627893210" imask:"12.000000" modified:"1628020485" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"224a67c1-11cb-435a-afe4-3396882234bf"]
+---
+time 1628079211
+old [description:"breakfast" due:"1628056800" entry:"1628020434" imask:"13.000000" modified:"1627893210" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"e6cb56e2-63de-4756-833b-e68d89eba816"]
+new [description:"breakfast" due:"1628056800" end:"1628020485" entry:"1628020434" imask:"13.000000" modified:"1628020485" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"completed" uuid:"e6cb56e2-63de-4756-833b-e68d89eba816"]
+---
+time 1628079211
+old [description:"breakfast" due:"1628056800" entry:"1628020378" imask:"13.000000" modified:"1627893210" parent:"58faf207-38b2-425c-9e1f-970c94edee63" recur:"daily" status:"pending" uuid:"c03280fc-e108-4f27-853b-63734a52ed21"]
+new [description:"breakfast" due:"1628056800" entry:"1628020378" modified:"1628020564" parent:"58faf207-38b2-425c-9e1f-970c94edee63" status:"pending" uuid:"c03280fc-e108-4f27-853b-63734a52ed21"]
+---
+time 1628079211
+old [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"++X+++++++++++" modified:"1628020485" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"X+X+++++++++++" modified:"1628020579" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1628079211
+old [description:"breakfast" due:"1628056800" entry:"1628020378" modified:"1628020564" parent:"58faf207-38b2-425c-9e1f-970c94edee63" status:"pending" uuid:"c03280fc-e108-4f27-853b-63734a52ed21"]
+new [description:"breakfast" due:"1628056800" end:"1628020576" entry:"1628020378" modified:"1628020579" parent:"58faf207-38b2-425c-9e1f-970c94edee63" status:"deleted" uuid:"c03280fc-e108-4f27-853b-63734a52ed21"]
+---
+time 1628079211
+old [description:"breakfast" due:"1626933600" entry:"1626900654" mask:"X+X+++++++++++" modified:"1628020579" recur:"daily" status:"recurring" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+new [description:"breakfast" due:"1626933600" end:"1628020583" entry:"1626900654" mask:"X+X+++++++++++" modified:"1628020583" recur:"daily" status:"deleted" uuid:"58faf207-38b2-425c-9e1f-970c94edee63"]
+---
+time 1628079211
+old [description:"task from macmini-sync test" entry:"1627031700" modified:"1627031700" status:"pending" uuid:"b92b67b3-2199-48a8-aae4-756233b84779"]
+new [description:"task from macmini-sync test" end:"1628020592" entry:"1627031700" modified:"1628020592" status:"completed" uuid:"b92b67b3-2199-48a8-aae4-756233b84779"]
+---
+time 1630266143
+new [description:"Steffen Gin einschenke" due:"1628200800" entry:"1628280195" modified:"1628280195" status:"pending" uuid:"0c063fdd-53da-4272-98fd-77cc7e1c4a90"]
+---
+time 1630266143
+old [annotation_1626645344:"sollte man jetzt echt mal machen, was sollte da alles hin? am besten denke ich braucht man erst mal Steckdosen und eine in der Hecke versteckte Verteilerdose" annotation_1626898446:"Lampen (Hue) bestellen \/ Anka Feedback fragen. Strom direkt neben Schiebetüre plus ein wetterfester Stromkasten in Richtung Hecke" annotation_1627158850:"Lampen Kabel prüfen von innen, Steckdose bestellen und setzten + Wetterfest Verteilerdose in Richtung Hecke" annotation_1627160280:"One more Annotation from inthe.am" description:"Außenbereich - Strom planen" due:"1627682400" entry:"1626386334" modified:"1627160280" project:"Terrasse" status:"pending" tags:"private" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+new [annotation_1626645344:"sollte man jetzt echt mal machen, was sollte da alles hin? am besten denke ich braucht man erst mal Steckdosen und eine in der Hecke versteckte Verteilerdose" annotation_1626898446:"Lampen (Hue) bestellen \/ Anka Feedback fragen. Strom direkt neben Schiebetüre plus ein wetterfester Stromkasten in Richtung Hecke" annotation_1627158850:"Lampen Kabel prüfen von innen, Steckdose bestellen und setzten + Wetterfest Verteilerdose in Richtung Hecke" annotation_1627160280:"One more Annotation from inthe.am" description:"Außenbereich - Strom planen" due:"1627682400" end:"1630265996" entry:"1626386334" modified:"1630265996" project:"Terrasse" status:"completed" tags:"private" uuid:"0e7c63c8-b361-46f9-b995-2bb3a5d394b4"]
+---
+time 1630266143
+old [annotation_1627158789:"alles klar, recht und links neben Schiebetüre + eine Lampe für andere Hausseite" description:"Außenbereich - Lampen planen" due:"1627682400" entry:"1626386370" modified:"1627158789" project:"Terrasse" status:"pending" tags:"private" uuid:"284122db-69b2-45e9-9cb5-5efc105931fc"]
+new [annotation_1627158789:"alles klar, recht und links neben Schiebetüre + eine Lampe für andere Hausseite" description:"Außenbereich - Lampen planen" due:"1627682400" end:"1630265998" entry:"1626386370" modified:"1630265998" project:"Terrasse" status:"completed" tags:"private" uuid:"284122db-69b2-45e9-9cb5-5efc105931fc"]
+---
+time 1630266143
+old [description:"Außenbereich - Strom \/ Elektro einbauen" due:"1628546400" entry:"1626386352" modified:"1626899683" project:"Terrasse" status:"pending" tags:"private" uuid:"e2591ba7-f931-4371-85ad-b797dba9b644"]
+new [description:"Außenbereich - Strom \/ Elektro einbauen" due:"1628546400" end:"1630265999" entry:"1626386352" modified:"1630265999" project:"Terrasse" status:"completed" tags:"private" uuid:"e2591ba7-f931-4371-85ad-b797dba9b644"]
+---
+time 1630266143
+old [description:"Steffen Gin einschenke" due:"1628200800" entry:"1628280195" modified:"1628280195" status:"pending" uuid:"0c063fdd-53da-4272-98fd-77cc7e1c4a90"]
+new [description:"Steffen Gin einschenke" due:"1628200800" end:"1630266003" entry:"1628280195" modified:"1630266003" status:"completed" uuid:"0c063fdd-53da-4272-98fd-77cc7e1c4a90"]
+---
+time 1630266143
+old [annotation_1625241345:"lecker lecker Kaffee" description:"Kaffe am Holzmarkt kaufen" entry:"1625241322" modified:"1626899497" project:"PRIVATE" status:"pending" tags:"private" uuid:"22da93f0-90d2-4b92-b631-2bec8dcb8f55"]
+new [annotation_1625241345:"lecker lecker Kaffee" description:"Kaffe am Holzmarkt kaufen" end:"1630266009" entry:"1625241322" modified:"1630266009" project:"PRIVATE" status:"completed" tags:"private" uuid:"22da93f0-90d2-4b92-b631-2bec8dcb8f55"]
+---
+time 1630266143
+old [description:"PO" due:"1630360800" entry:"1625240801" modified:"1626899391" project:"SCRUM PO" status:"pending" tags:"PO,SCRUM" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+new [description:"PO" due:"1632952800" entry:"1625240801" modified:"1630266099" project:"SCRUM PO" status:"pending" tags:"PO,SCRUM" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+---
+time 1636906590
+old [description:"PO" due:"1632952800" entry:"1625240801" modified:"1630266099" project:"SCRUM PO" status:"pending" tags:"PO,SCRUM" tags_PO:"x" tags_SCRUM:"x" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+new [description:"PO" due:"1638226800" entry:"1625240801" modified:"1635367957" project:"SCRUM PO" status:"pending" tags:"PO,SCRUM" tags_PO:"x" tags_SCRUM:"x" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+---
+time 1651271992
+new [description:"work task 3" entry:"1651271992" modified:"1651271992" status:"pending" uuid:"26013743-3880-41f6-964b-4f913eb52e12"]
+---
+time 1651272466
+new [description:"describe software for SE homepage" entry:"1651272466" modified:"1651272466" project:"ISElaunch" status:"pending" uuid:"4ca9856d-8aae-4177-b942-b066b12812e3"]
+---
+time 1651272573
+old [description:"describe software for SE homepage" entry:"1651272466" modified:"1651272466" project:"ISElaunch" status:"pending" uuid:"4ca9856d-8aae-4177-b942-b066b12812e3"]
+new [annotation_1651272573:"hier steht jetzt so grob was ich da alles machen möchte, erste IDeen unsw" description:"describe software for SE homepage" entry:"1651272466" modified:"1651272573" project:"ISElaunch" status:"pending" uuid:"4ca9856d-8aae-4177-b942-b066b12812e3"]
+---
+time 1651272636
+old [annotation_1651272573:"hier steht jetzt so grob was ich da alles machen möchte, erste IDeen unsw" description:"describe software for SE homepage" entry:"1651272466" modified:"1651272573" project:"ISElaunch" status:"pending" uuid:"4ca9856d-8aae-4177-b942-b066b12812e3"]
+new [annotation_1651272573:"hier steht jetzt so grob was ich da alles machen möchte, erste IDeen unsw" description:"describe software for SE homepage" entry:"1651272466" modified:"1651272636" project:"ISElaunch" status:"pending" tags:"work" tags_work:"x" uuid:"4ca9856d-8aae-4177-b942-b066b12812e3"]
+---
+time 1651272710
+new [description:"electronics VUE discussion" entry:"1651272710" modified:"1651272710" status:"pending" tags:"work" tags_work:"x" uuid:"7d010f3c-9f22-448b-b775-8db7a7a29131"]
+---
+time 1651272915
+new [description:"from web" entry:"1651272903" modified:"1651272903" status:"pending" uuid:"80dd32ff-a5bd-4e03-aeb3-309e785ba6ef"]
+---
+time 1651273071
+old [annotation_1651272573:"hier steht jetzt so grob was ich da alles machen möchte, erste IDeen unsw" description:"describe software for SE homepage" entry:"1651272466" modified:"1651272636" project:"ISElaunch" status:"pending" tags:"work" tags_work:"x" uuid:"4ca9856d-8aae-4177-b942-b066b12812e3"]
+new [annotation_1651272573:"hier steht jetzt so grob was ich da alles machen möchte, erste IDeen unsw" description:"describe software for SE homepage" due:"1651528800" entry:"1651272466" modified:"1651273071" project:"ISElaunch" status:"pending" tags:"work" tags_work:"x" uuid:"4ca9856d-8aae-4177-b942-b066b12812e3"]
+---
+time 1651274534
+new [description:"electronics VUE discussion" entry:"1651274534" modified:"1651274534" status:"pending" tags:"work" tags_work:"x" uuid:"5e069900-c5c1-4d67-b3d6-ccd52e25107d"]
+---
+time 1651274534
+old [annotation_1651272573:"hier steht jetzt so grob was ich da alles machen möchte, erste IDeen unsw" description:"describe software for SE homepage" due:"1651528800" entry:"1651272466" modified:"1651273071" project:"ISElaunch" status:"pending" tags:"work" tags_work:"x" uuid:"4ca9856d-8aae-4177-b942-b066b12812e3"]
+new [annotation_1651272573:"hier steht jetzt so grob was ich da alles machen möchte, erste IDeen unsw" annotation_1651274534:"hier steht jetzt so grob was ich da alles machen möchte, erste IDeen unsw" description:"describe software for SE homepage" due:"1651528800" entry:"1651272466" modified:"1651274534" project:"ISElaunch" status:"pending" tags:"work" tags_work:"x" uuid:"4ca9856d-8aae-4177-b942-b066b12812e3"]
+---
+time 1651274534
+new [description:"describe software for SE homepage" entry:"1651274534" modified:"1651274534" project:"ISElaunch" status:"pending" uuid:"c91c2dbf-3004-4d1f-9351-7111a299d26e"]
+---
+time 1651274534
+new [description:"work task 3" entry:"1651274534" modified:"1651274534" status:"pending" uuid:"8a622367-dc44-4bf4-9812-d8283f6bf79c"]
+---
+time 1651315144
+old [description:"PO" due:"1638226800" entry:"1625240801" modified:"1635367957" project:"SCRUM PO" status:"pending" tags:"PO,SCRUM" tags_PO:"x" tags_SCRUM:"x" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+new [description:"PO" due:"1653861600" entry:"1625240801" modified:"1651315144" project:"SCRUM PO" status:"pending" tags_PO:"x" tags_SCRUM:"x" uuid:"9a2513e2-2316-415d-bcb3-9fdea3eac9a3"]
+---
+time 1651400766
+old [description:"work task 3" entry:"1651271992" modified:"1651271992" status:"pending" uuid:"26013743-3880-41f6-964b-4f913eb52e12"]
+new [description:"work task 3" end:"1651342297" entry:"1651271992" modified:"1651342297" status:"completed" uuid:"26013743-3880-41f6-964b-4f913eb52e12"]
+---
