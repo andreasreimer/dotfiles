@@ -1,0 +1,15 @@
+options(scipen=999)
+## Default repo
+local({r <- getOption("repos")
+       r["CRAN"] <- "https://cran.uni-muenster.de/" 
+       options(repos=r)
+})
+
+.First <- function() {
+    cat(cowsay::say(praise::praise(), by='random'))
+    }
+
+.Last <- function() {
+    cat('Bye now.')
+}
+
