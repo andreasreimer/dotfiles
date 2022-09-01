@@ -50,3 +50,4 @@ if &t_Co > 2 || has("gui_running")
   set hlsearch
 endif
 
+" add to check auto push
