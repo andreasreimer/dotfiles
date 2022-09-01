@@ -1,0 +1,126 @@
+set runtimepath^=~/.vim runtimepath+=~/.vim/after
+let &packpath = &runtimepath
+source ~/.vimrc
+
+
+" wordbreaks instead of letterbreaks
+set linebreak
+" https://github.com/junegunn/vim-plug - Infos from this page (comment AR)
+
+" Plugins will be downloaded under the specified directory.
+call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
+
+" Declare the list of plugins.
+Plug 'tpope/vim-sensible'
+Plug 'junegunn/seoul256.vim'
+
+" NERD tree will be loaded on the first invocation of NERDTreeToggle command
+Plug 'preservim/nerdtree'
+" Statusline in nice
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+" Dashboard - Startup Screen 
+Plug 'glepnir/dashboard-nvim'
+" Plugin to run R Code in Neovim
+Plug 'jalvesaq/Nvim-R', {'branch': 'stable'}
+Plug 'jalvesaq/vimcmdline'
+
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-surround'
+" Vim games
+Plug 'ThePrimeagen/vim-be-good'
+
+Plug 'kshenoy/vim-signature'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'chrisbra/csv.vim'
+"Themes
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+" List ends here. Plugins become visible to Vim after this call.
+" Plug 'dracula/vim' 
+Plug 'dracula/vim', { 'as': 'dracula' }
+"
+call plug#end()
+
+" Map the leader key to SPACE
+let mapleader="\<SPACE>"
+
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+
+tnoremap <Esc> <C-\><C-n>
+
+" AR Setup to Nvim-R
+"
+
+" start R with F2 key
+map <F2> <Plug>RStart 
+imap <F2> <Plug>RStart
+vmap <F2> <Plug>RStart
+" R version can be specified like this:
+" let vimrplugin_r_path = "/opt/R/3.1.2-release/bin/R"
+" Send selection or line to R with space bar, respectively.
+vmap <Space> <Plug>RDSendSelection
+nmap <Space> <Plug>RDSendLine
+
+" Shortcut for R's assignment operator: 0 turns it off; 1 assigns underscore; 2 assigns two underscores
+let R_assign = 2
+
+
+" Use Ctrl-Space to do omnicompletion
+inoremap <C-Space> <C-x><C-o>
+
+" The following provides a zoom functionality, similar to Tmux's Ctrl-a z, by pressing 'gz' in normal mode. 
+function ZoomWindow()
+        let cpos = getpos(".")
+        tabnew %
+        redraw
+        call cursor(cpos[1], cpos[2])
+        normal! zz
+    endfunction
+    nmap gz :call ZoomWindow()<CR>
+
+
+syntax enable
+colorscheme dracula
+
+
+" Use tab for trigger completion with characters ahead and navigate.
+" NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
+" other plugin before putting this into your config.
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ CheckBackspace() ? "\<TAB>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
+function! CheckBackspace() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+" Use <c-space> to trigger completion.
+if has('nvim')
+  inoremap <silent><expr> <c-space> coc#refresh()
+else
+  inoremap <silent><expr> <c-@> coc#refresh()
+endif
+
+" Make <CR> auto-select the first completion item and notify coc.nvim to
+" format on enter, <cr> could be remapped by other vim plugin
+inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
+" Use `[g` and `]g` to navigate diagnostics
+" Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
+
+" GoTo code navigation.
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
+
