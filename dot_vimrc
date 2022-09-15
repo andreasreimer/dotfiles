@@ -18,8 +18,8 @@ set scrolloff=7
 	map <F6> :setlocal spell! spelllang=en_us<CR>
 	map <F7> :setlocal spell! spelllang=de<CR>
 	map <F5> :set list!<CR>
-	nnoremap <F3> "=strftime('%Y-%m-%d')<CR>P
-	inoremap <F3> # <C-R>=strftime('%Y-%m-%d')<CR>
+	nnoremap <F3> I## <Space><ESC>"=strftime('%Y-%m-%d')<CR>P
+	inoremap <F3> ## <C-R>=strftime('%Y-%m-%d')<CR>
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
   finish
