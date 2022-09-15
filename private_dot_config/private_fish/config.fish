@@ -51,6 +51,7 @@ abbr ts "task sync"
 abbr nv "nvim"
 abbr hacker 'docker run --rm -it bcbcarl/hollywood'
 abbr cmm 'chezmoi'
+abbr nvf 'nvim $(fzf)'
 
 # neofetch
 
