@@ -52,7 +52,7 @@ abbr nv "nvim"
 abbr hacker 'docker run --rm -it bcbcarl/hollywood'
 abbr cmm 'chezmoi'
 abbr nvf 'nvim $(fzf)'
-
+abbr cdf 'cd $(find * -type d | fzf)'
 # neofetch
 
 fish_add_path /opt/homebrew/opt/bison/bin
