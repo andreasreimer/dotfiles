@@ -33,6 +33,11 @@ Plug 'ThePrimeagen/vim-be-good'
 Plug 'kshenoy/vim-signature'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'chrisbra/csv.vim'
+
+" FZF tools
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
+
 "Themes
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 " List ends here. Plugins become visible to Vim after this call.
@@ -50,6 +55,12 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
 tnoremap <Esc> <C-\><C-n>
+
+" remap so FZF works fine
+
+nmap <C-p> :Files<CR>
+nmap <C-e> :Buffers<CR>
+let g:fzf_action = { 'ctrl-e': 'edit' }
 
 " AR Setup to Nvim-R
 "
