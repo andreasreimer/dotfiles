@@ -24,8 +24,6 @@ set scrolloff=7
 if v:progname =~? "evim"
   finish
 endif
-set textwidth=80
-set colorcolumn=+1
 
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
@@ -39,7 +37,9 @@ set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
 set list
 set listchars=eol:⏎,tab:␉·,trail:␠,nbsp:⎵
-
+set textwidth=80
+set colorcolumn=+1
+"
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
   set mouse=a
