@@ -13,6 +13,7 @@ set PATH $PATH /Users/andreas/Nextcloud/Files/terminal
 ### EXPORT
 export EDITOR='nvim'
 export VISUAL='nvim'
+export OPENAI_API_KEY='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'
 
 # adding flags
 # alias df='df -h'                          # human-readable sizes
@@ -20,21 +21,9 @@ export VISUAL='nvim'
 ### "bat" as manpager
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
-# Aliases
-# alias mv="mv -iv"
-# alias cp="cp -iv"
-# alias desktop='cd ~/Desktop/'
-# alias music='cd ~/Music/'
-# alias ..='cd ..'
-# alias ...='cd ../..'
-# alias ....='cd ../../..'
-# alias ="$EDITOR ~/.config/fish/config.fish"
-# # alias ll="ls -al -T"
-# alias numFiles='ls -1 | wc -l' # numFiles:     Count of non-hidden files in current dir
-# alias tt="taskwarrior-tui"
-# alias ts="task sync"
-
 # Abbr'sss
+abbr efc "$EDITOR ~/.config/fish/config.fish"
+abbr nvwork 'cd /Volumes/ext-hub/SE-Nextcloud/WorkVaultObsidian/ && nvim .'
 abbr df 'df -h'                          # human-readable sizes
 abbr ll "ls -al -T"
 abbr mv "mv -iv"
@@ -44,11 +33,11 @@ abbr music 'cd ~/Music/'
 abbr .. 'cd ..'
 abbr ... 'cd ../..'
 abbr .... 'cd ../../..'
-abbr efc "$EDITOR ~/.config/fish/config.fish"
 abbr numFiles 'ls -1 | wc -l' # numFiles:     Count of non-hidden files in current dir
 abbr tt "taskwarrior-tui"
 abbr ts "task sync"
 abbr nv "nvim"
+abbr lv "lvim"
 abbr hacker 'docker run --rm -it bcbcarl/hollywood'
 abbr cmm 'chezmoi'
 abbr nvf 'nvim $(fzf)'
