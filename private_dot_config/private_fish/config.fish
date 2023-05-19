@@ -13,7 +13,13 @@ set PATH $PATH /Users/andreas/Nextcloud/Files/terminal
 ### EXPORT
 export EDITOR='nvim'
 export VISUAL='nvim'
-export OPENAI_API_KEY='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'
+
+# Check if the ignored configuration file exists
+if test -f ~/.config/fish/config.fish.ignored
+    # Load the ignored configuration file
+    source ~/.config/fish/config.fish.ignored
+end
+
 
 # adding flags
 # alias df='df -h'                          # human-readable sizes
