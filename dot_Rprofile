@@ -1,15 +1,15 @@
-options(scipen=999)
+options(scipen = 999)
 ## Default repo
 local({r <- getOption("repos")
-       r["CRAN"] <- "https://cran.uni-muenster.de/" 
+       r["CRAN"] <- "https://cloud.r-project.org/" 
        options(repos=r)
 })
 
-.First <- function() {
-    cat(cowsay::say(praise::praise(), by='random'))
-    }
+# .First <- function() {
+#     cat(cowsay::say(praise::praise(), by='random'))
+#     }
 
-.Last <- function() {
-    cat('Bye now.')
-}
+# .Last <- function() {
+#     cat('Bye now.')
+# }
 
