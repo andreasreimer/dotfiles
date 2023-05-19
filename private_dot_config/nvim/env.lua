@@ -1,0 +1,1 @@
+-- vim.cmd("let $OPENAI_API_KEY='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'")
