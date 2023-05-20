@@ -13,6 +13,7 @@ set PATH $PATH /Users/andreas/Nextcloud/Files/terminal
 ### EXPORT
 export EDITOR='nvim'
 export VISUAL='nvim'
+export witz='ohhhh geht gerade nicht ...'
 
 # Check if the ignored configuration file exists
 if test -f ~/.config/fish/config.fish.ignored
