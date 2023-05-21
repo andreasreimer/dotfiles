@@ -1,2 +1,2 @@
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-# comment in bashrc becuase of chezmoi test
+# comment in bashrc because of chezmoi test
