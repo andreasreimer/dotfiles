@@ -124,6 +124,19 @@ return require('packer').startup(function(use)
     -- Obsidian Plugin
     use 'epwalsh/obsidian.nvim'
 
+    use {
+      "folke/which-key.nvim",
+      config = function()
+        vim.o.timeout = true
+        vim.o.timeoutlen = 300
+        require("which-key").setup {
+          -- your configuration comes here
+          -- or leave it empty to use the default settings
+          -- refer to the configuration section below
+        }
+      end
+    }
+
 
 
     -- all stuff should be before this end of function.
