@@ -1,6 +1,6 @@
 # kickstart.nvim
 
-## Introduction
+## Introduction from CMM DJ DJ 
 
 A starting point for Neovim that is:
 A starting point for Neovim that is:
